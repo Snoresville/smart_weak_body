@@ -80,4 +80,24 @@
 		"ItemInitialStockTime"			"0"
 		"ItemInitialStockTimeTurbo"		"0"
 	}
+
+	"item_dumb_pill"
+	{
+		"BaseClass"		"item_lua"
+		"ScriptFile"	"abilities/item_dumb_pill"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+
+		"AbilityTextureName"	"custom/meth"
+		"ItemCost"						"100"
+
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+        "ItemStackable"					"1"
+        "ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemDisplayCharges"			"1"
+        "ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+	}
 }
